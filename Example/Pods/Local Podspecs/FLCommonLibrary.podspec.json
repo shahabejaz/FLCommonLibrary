@@ -1,0 +1,25 @@
+{
+  "name": "FLCommonLibrary",
+  "version": "1.0.0",
+  "summary": "A bunch of useful Objective-C utility classes and categories",
+  "description": "A set of useful Objective-C utility classes and extension on frameworks like Foundation,UIKit,MapKit etc",
+  "homepage": "https://github.com/shahabejaz/FLCommonLibrary",
+  "license": "MIT",
+  "authors": {
+    "Shahab Ejaz": "sejaz@folio3.com"
+  },
+  "source": {
+    "git": "https://github.com/shahabejaz/FLCommonLibrary.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "FLCommonLibrary": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

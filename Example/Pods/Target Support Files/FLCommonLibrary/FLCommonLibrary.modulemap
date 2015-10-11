@@ -1,0 +1,6 @@
+framework module FLCommonLibrary {
+  umbrella header "FLCommonLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_FLCommonLibrary_Example {
+  umbrella header "Pods-FLCommonLibrary_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

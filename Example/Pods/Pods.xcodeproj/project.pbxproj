@@ -11,17 +11,13 @@
 		399A2453E2D1F9930D4668647F713D03 /* ConfigurationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6859BA839D10E519DCA5FE8B8C95EA5B /* ConfigurationUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40BC6DC56C5332D0D82A0CA94E250D56 /* ConfigurationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4246050932FDACBE286CA54777C142 /* ConfigurationUtil.m */; };
 		48E75132F4D560AC7BF8AEE74CFAF946 /* FLCommonLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD5BFCF918B082EBEAAD6E25522DAAF /* FLCommonLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EFAE9A88DD95CD883A39F1912551D50 /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC43A478DCAD19A6F371014ACE44CF38 /* NSDate+Extensions.m */; };
 		521CEBD4F8CC05FD63FD3BE587466AFE /* FLCommonLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C9E529085F9CBE0BB3B88C771E64D529 /* FLCommonLibrary.bundle */; };
 		5852181E3E9BEB6A61635AC6BA71701C /* Pods-FLCommonLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8263E7B48F8971890C95BAE93A15DE /* Pods-FLCommonLibrary_Tests-dummy.m */; };
 		8A9F60684FFCD12889D39540D6E42F8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		98539D3D3EDD512393C6DCCD7A5E4B82 /* NSArray+Primitive.m in Sources */ = {isa = PBXBuildFile; fileRef = 60873FC8FE30C938A3737D9F551BEEB7 /* NSArray+Primitive.m */; };
 		98EF917404D313CB7E2F830C13BF011E /* FLCommonLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D18CC9A2C2F86B13AA9EE258B93D47 /* FLCommonLibrary-dummy.m */; };
-		9B7DF27A6408E1DC8ECC1ABE1CE5C10B /* NSDictionary+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 094DD4A88889DDA3370BA9F337187020 /* NSDictionary+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC02B50021E33100A86A654FB8F56935 /* NSDate+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5816D3B5EFBF08D09ABBB9C92E1C70D6 /* NSDate+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADFE4F7DCD216A65025BA83E3026D6BF /* NSArray+Primitive.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A61A799D18B44A399BA701814E559A /* NSArray+Primitive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B034160CD83BB69F50572C839C3C0EE0 /* FileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D55124536482887978E10F4B218A248E /* FileUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D51F5EC9318C5F6A3C1F143F972B0A11 /* NSDictionary+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A5317D6BC9C35B578962CDFFF40A8 /* NSDictionary+Extensions.m */; };
 		DA83846BF92F77D1440A938AD99E2ED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		E7857184394B38AB4BF8FFE70AA8A375 /* Pods-FLCommonLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC5426DFF2C740B8B61875085E2DA59 /* Pods-FLCommonLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDBEBBA07A3EAECEDC83485343B00A48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -56,7 +52,6 @@
 
 /* Begin PBXFileReference section */
 		02D9338B2F5128CC029EFD3DDD22DDFD /* Pods-FLCommonLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLCommonLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		094DD4A88889DDA3370BA9F337187020 /* NSDictionary+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extensions.h"; sourceTree = "<group>"; };
 		0CC5426DFF2C740B8B61875085E2DA59 /* Pods-FLCommonLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLCommonLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
 		1216F37FCFE4760E7645CC60326684C6 /* Pods-FLCommonLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLCommonLibrary_Example-resources.sh"; sourceTree = "<group>"; };
 		1B4246050932FDACBE286CA54777C142 /* ConfigurationUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ConfigurationUtil.m; sourceTree = "<group>"; };
@@ -69,7 +64,6 @@
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4FC3B5D8F09512BB2CDA40FA8EEA2578 /* Pods-FLCommonLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLCommonLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		504B6396F45192F2432152728844820E /* Pods-FLCommonLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLCommonLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5816D3B5EFBF08D09ABBB9C92E1C70D6 /* NSDate+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extensions.h"; sourceTree = "<group>"; };
 		5AAA2AF0F9E082685F2597B536318B34 /* Pods-FLCommonLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLCommonLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5C2804D7FA28902814B8DC90F1BF8CF9 /* Pods-FLCommonLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLCommonLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5FD5BFCF918B082EBEAAD6E25522DAAF /* FLCommonLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLCommonLibrary-umbrella.h"; sourceTree = "<group>"; };
@@ -80,7 +74,6 @@
 		73EFF51818CD180F2711488AAA3CDCEF /* Pods_FLCommonLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLCommonLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D8263E7B48F8971890C95BAE93A15DE /* Pods-FLCommonLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLCommonLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		8CF0944983AEA256AC110D5043D33040 /* Pods-FLCommonLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLCommonLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8E7A5317D6BC9C35B578962CDFFF40A8 /* NSDictionary+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extensions.m"; sourceTree = "<group>"; };
 		9A1CE700DA34A977C04D5E63F108CE1C /* FLCommonLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLCommonLibrary.xcconfig; sourceTree = "<group>"; };
 		A45C0A9E8791420C0FF50B7AA827F629 /* Pods-FLCommonLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLCommonLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A7DC98AAC6EEF6AA724C9B0B6270C570 /* FLCommonLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLCommonLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,7 +84,6 @@
 		CBC2BA361FC8406FA457D54B5B9894D3 /* Pods_FLCommonLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLCommonLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55124536482887978E10F4B218A248E /* FileUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
 		D85E178EBE482E6B72DF056C0C4AEBD1 /* Pods-FLCommonLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLCommonLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EC43A478DCAD19A6F371014ACE44CF38 /* NSDate+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extensions.m"; sourceTree = "<group>"; };
 		ED159931F7D31BAFCD6CB97A28AB78FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED98D895DCB240983DB07F47173DF373 /* FileUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FileUtil.m; sourceTree = "<group>"; };
 		F13FC21B57FA45EC4794691DC3C83700 /* FLCommonLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLCommonLibrary-prefix.pch"; sourceTree = "<group>"; };
@@ -184,10 +176,6 @@
 				ED98D895DCB240983DB07F47173DF373 /* FileUtil.m */,
 				A9A61A799D18B44A399BA701814E559A /* NSArray+Primitive.h */,
 				60873FC8FE30C938A3737D9F551BEEB7 /* NSArray+Primitive.m */,
-				5816D3B5EFBF08D09ABBB9C92E1C70D6 /* NSDate+Extensions.h */,
-				EC43A478DCAD19A6F371014ACE44CF38 /* NSDate+Extensions.m */,
-				094DD4A88889DDA3370BA9F337187020 /* NSDictionary+Extensions.h */,
-				8E7A5317D6BC9C35B578962CDFFF40A8 /* NSDictionary+Extensions.m */,
 				1FC4B753B5112F67C5C356F778ADE84C /* ReplaceMe.m */,
 			);
 			path = Classes;
@@ -287,8 +275,6 @@
 				B034160CD83BB69F50572C839C3C0EE0 /* FileUtil.h in Headers */,
 				48E75132F4D560AC7BF8AEE74CFAF946 /* FLCommonLibrary-umbrella.h in Headers */,
 				ADFE4F7DCD216A65025BA83E3026D6BF /* NSArray+Primitive.h in Headers */,
-				AC02B50021E33100A86A654FB8F56935 /* NSDate+Extensions.h in Headers */,
-				9B7DF27A6408E1DC8ECC1ABE1CE5C10B /* NSDictionary+Extensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,8 +433,6 @@
 				F413B76E9C57D733A3CB8316B56DD61D /* FileUtil.m in Sources */,
 				98EF917404D313CB7E2F830C13BF011E /* FLCommonLibrary-dummy.m in Sources */,
 				98539D3D3EDD512393C6DCCD7A5E4B82 /* NSArray+Primitive.m in Sources */,
-				4EFAE9A88DD95CD883A39F1912551D50 /* NSDate+Extensions.m in Sources */,
-				D51F5EC9318C5F6A3C1F143F972B0A11 /* NSDictionary+Extensions.m in Sources */,
 				F54287ECC63148843B960AEA03D6C1C8 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
